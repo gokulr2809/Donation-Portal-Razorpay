@@ -3,7 +3,7 @@
 
 Deployment Link - https://donate-razorpay.herokuapp.com/
 
-A Simple Payment Portal for Donation purpose using Razorpay API 
+A Simple Payment Portal For Donation Purpose Using Razorpay API 
 
 Screenshots:
 
