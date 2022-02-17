@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <div id = "main">
+    <img src="{% static 'done.png' %}" id="done"> </img>
+    <div id="ps">Payment Succesful</div>
+    <div id="oid"> Your Payment Id: {{id}} </div>
+    <div id="ty">THANK YOU FOR THE SUPPORT </div>
+    <button type="button" id = "button" class="home bt" onclick="location.href='{% url 'home' %}'">Home</button>
+    </div>
+{% endblock %}

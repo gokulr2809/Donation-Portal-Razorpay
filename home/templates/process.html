@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+{% load static %}
+
+ {% if payment %}
+ <div id = "main">
+    <div class="display">Pay ₹{{actual}}</div>
+    <form action="/sucess" method="post" class="display">
+        <script
+            src ="https://checkout.razorpay.com/v1/checkout.js"
+            data-key = "rzp_test_e5VdXsC64nPLeM"
+            data-amount = "{{payment.amount}}"
+            data-currency = "INR"
+            data-order_id = "{{payment.id}}"
+            data-buttontext = "Pay With RazorPay"
+            data-name = "XYZ charity"
+            data-description = "Fund Raising"
+            data-prefill.name = "Gokul"
+            data-prefill.email = "gokul@gmail.com"
+            data-prefill.contact = "911234567890"
+            data-theme.color = "#04AA6D"
+        >
+        </script>
+            <input type="hidden"  name = "hidden" class="display">
+        </form>
+        <a onclick="location.href='{% url 'home' %}'">cancel</a>
+</div>
+ {% endif %}
+
+{% endblock %}

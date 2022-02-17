@@ -1,0 +1,203 @@
+body {
+    display: block;
+    margin: 0px;
+}
+#bg{
+    width: 100%;
+    height: 955px;
+    filter: blur(8px);
+    -webkit-filter: blur(4px);
+
+}
+
+#main
+{
+position: absolute;
+display: block;
+box-sizing: border-box;
+width: 500px;
+height: 400px;
+background-image: linear-gradient( #EEEDE7,#EDE4E3);
+bottom: 300px;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+border: 2px solid black;
+border-radius: 15px;
+}
+.input
+{
+    position: relative;
+    top: 80px;
+    margin-bottom: 40px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    left: 90px;
+}
+
+.bt{
+    border: none;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 30%;
+    margin-top: 20px;
+    left: 160px;
+    color: black;
+    font-weight: bold;
+}
+.bt:hover
+{
+    border: 2px solid black;
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 30%;
+    margin-top: 20px;
+    left: 160px;
+    color: black;
+    font-weight: bold;
+}
+#ps
+{
+    text-align: center;
+    color: #04AA6D;
+    margin-top: 110px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+#ty
+{   
+    text-align: center;
+    font-size: 23px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+h2
+{
+    text-align: center;
+    color: red;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.display
+{
+    position: relative;
+
+    box-sizing: border-box;
+    width: 60%;
+    left: 100px;
+    text-align: center;
+    color: #04AA6D;
+    margin-top: 70px;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+.razorpay-payment-button
+{
+    border: none;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    left: 160px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.razorpay-payment-button:hover
+{
+    border: 2px solid black;
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    left: 160px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#done
+{
+    position:absolute;
+    top: 30px;
+    left: 210px;
+}
+.home
+{
+    position: relative;
+    top: 20px;
+    margin-bottom: 40px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    left: 90px;
+}
+
+.bt{
+    border: none;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 30%;
+    left: 160px;
+    color: black;
+    font-weight: bold;
+    bottom: 10px;
+}
+.bt:hover
+{
+    border: 2px solid black;
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 30%;
+    left: 160px;
+    color: black;
+    font-weight: bold;
+}
+a{
+    position:relative;
+    color: red;
+    cursor: pointer;
+    font-weight:bold;
+    left: 220px;
+    top: 10px;
+}
+#oid
+{
+    text-align: center;
+    color: #04AA6D; 
+    margin-bottom: 50px;
+    font-size: 18px;
+    left: 90px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}

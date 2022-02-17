@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    <div id = "main">
+    <input class = "input" type="text" placeholder="Name" name="name">
+    <br>
+    <input class = "input" type="text" inputmode="numeric" placeholder="₹ Amount" name="amount">
+    <br>
+    <button type="submit" id = "button" class="input bt">DONATE</button>
+    </div>
+</form>
+{% endblock %}
+
