@@ -34,7 +34,7 @@ def sucess(request):
             elif key == "razorpay_signature":
                 data['razorpay_signature'] = values
 
-        user = donate.objects.filter(payment_id = order_id).first()
+        user = donate.objects.filter(payment_id = order_id)
         client = razorpay.Client(auth=("your public key", " your private key")) 
         check = client.utility.verify_payment_signature(data)
         if not check:
